@@ -51,8 +51,8 @@ $dbconfig['db_server'] = 'localhost';
 $dbconfig['db_port'] = ':3306';
 $dbconfig['db_username'] = 'root';
 $dbconfig['db_password'] = '';
-$dbconfig['db_name'] = 'vtigercrm70';
-$dbconfig['db_type'] = 'mysql';
+$dbconfig['db_name'] = 'vtigercrm701';
+$dbconfig['db_type'] = 'mysqli';
 $dbconfig['db_status'] = 'true';
 
 // TODO: test if port is empty
@@ -82,12 +82,12 @@ $dbconfigoption['ssl'] = false;
 
 $host_name = $dbconfig['db_hostname'];
 
-$site_URL = 'http://localhost:8070/redian/vtiger/vtigercrm70/';
+$site_URL = 'http://localhost:8070/redian/vtiger/vtigercrm701/';
 
 // url for customer portal (Example: http://vtiger.com/portal)
 $PORTAL_URL = $site_URL.'/customerportal';
 // root directory path
-$root_directory = 'E:\wamp64\www\redian\vtiger\vtigercrm70/';
+$root_directory = 'E:\wamp64\www\redian\vtiger\vtigercrm701/';
 
 // cache direcory path
 $cache_dir = 'cache/';
@@ -186,7 +186,7 @@ $display_empty_home_blocks = false;
 $disable_stats_tracking = false;
 
 // Generating Unique Application Key
-$application_unique_key = 'ac31279b26aaa09ba0e4f7fb23a816b7';
+$application_unique_key = 'b383672329af1baeaa50297d7b2dd5c5';
 
 // trim descriptions, titles in listviews to this value
 $listview_max_textlength = 40;
